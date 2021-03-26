@@ -1,0 +1,70 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'){
+    padding: 0;
+    margin: 0;
+    outLine: nome;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+
+}*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+  
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #41002d ;
+    background-image: url("https://image.freepik.com/free-vector/dynamic-geometric-line-shape-modern-clean-abstract-background-design_7102-259.jpg");
+    background-size: cover;
+}
+input{
+    margin: 2px;
+    border: nome;
+    border-radius: 3px;
+
+}
+input[type=text]{
+    width: calc(100% - 4px);
+    height: 40px;
+}
+input[type=button]{
+    width: 100px;
+    height: 50px;
+    transition: ease 0,2s;
+    cursor: pointer;
+   }
+div#calculadora{
+    box-shadow: 0 0 20px black;
+    
+}
+div#calculadora div{
+    display: flex;
+}
+div#calculadora div input:nth-child(4){
+    background: silver;
+    font-size: 25px;
+}
+div#quarta input:nth-child(1){
+    background: #c71414;
+    font-size: 25px;
+    
+}
+div#quarta input:nth-child(3){
+    background: #4169e1;
+    font-size: 25px;
+}
+input[type=button]:hover{
+    filter: brightness(50%);
+}
+input[type=button]:active{
+    transform: scale(0.9);
+}
+
